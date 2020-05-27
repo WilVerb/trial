@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        table.t2 {
+            background-color: chartreuse;
+            border: 3px solid orange;
+        }
+
+            table.t2 tr:nth-child(3n+1) {
+                background-color: yellow;
+                /* border: 2px solid blue;  */
+            }
+
+            table.t2 tr:nth-child(3n+2) {
+                background-color: blueviolet;
+              /*  border-bottom: 2px solid cyan;
+             */
+            }
+        table.t2 tr:nth-child(3n) {
+         /*   border-bottom: 2px solid red;*/
+        }
+
+            table.t2 tr td:nth-child(3n) {
+                background-color: cyan;
+            }
+
+    </style>
+</head>
+<body>
+    <table class="t2">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+            <td>G</td>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td>M</td>
+            <td>N</td>
+            <td>O</td>
+            <td>P</td>
+        </tr>
+    </table>
+</body>
+</html>

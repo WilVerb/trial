@@ -1,0 +1,12 @@
+﻿
+
+<h2>People with address</h2>
+<table>
+<tr><th width="100">first name</th><th width="100">last name</th><th width="100">address</th></tr>
+    @foreach (dynamic p in ViewBag.People)
+    {
+<tr>
+    <td>@p.FName</td><td>@p.LName</td><td>@p.Age</td><td>@p.Address</td>
+</tr>
+    }
+</table>

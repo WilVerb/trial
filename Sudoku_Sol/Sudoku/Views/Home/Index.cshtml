@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    Sudoku Grid: in red: input numbers. in black: calculated numbers.
+    <br />
+    <table border="1" width="450" class="t2">
+        @for (int i = 0; i < 3; i++)
+        {
+            @for (int j = 0; j < 3; j++)
+            {
+                <tr>
+                    @for (int k = 0; k < 3; k++)
+                    {
+                        @for (int l = 0; l < 3; l++)
+                        {
+                           @if (ViewBag.Grid.Matrices[i, k].Cells[j, l].Initialized)
+                           {
+                                <td style="color: red">
+                                @if (ViewBag.Grid.Matrices[i, k].Cells[j, l].Content != 0)
+                                {
+                                    @ViewBag.Grid.Matrices[i, k].Cells[j, l].Content;
+                                }
+                            </td>
+                            }
+                            else
+                            {
+                                <td>
+                                @if (ViewBag.Grid.Matrices[i, k].Cells[j, l].Content != 0)
+                                {
+                                    @ViewBag.Grid.Matrices[i, k].Cells[j, l].Content;
+                                }
+                                </td>
+                            }
+                        }
+                    }
+                </tr>
+             }
+         }
+
+                    </table>
+                    <table class="t1">
+                        <tr>
+                            <td>A</td>
+                            <td>B</td>
+                            <td>C</td>
+                            <td>D</td>
+                        </tr>
+                        <tr>
+                            <td>E</td>
+                            <td>F</td>
+                            <td>G</td>
+                            <td>H</td>
+                        </tr>
+                        <tr>
+                            <td>I</td>
+                            <td>J</td>
+                            <td>K</td>
+                            <td>L</td>
+                        </tr>
+                    </table>
+                    </div>

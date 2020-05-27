@@ -1,0 +1,128 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+    table.t1 {
+        margin: 1em auto;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .t1 th, .t1 td {
+        padding: 4px 8px;
+        text-align: center;
+    }
+
+    table.t2 {
+        background-color: chartreuse;
+        border: 3px solid orange;
+    }
+
+table.t2 th, .t2 td {
+    padding: 4px 8px;
+    text-align: center;
+}
+
+        table.t2 tr:nth-child(3n+1) td:nth-child(3n+1) {
+            background-color: yellow;
+        }
+
+        table.t2 tr:nth-child(3n+1) td:nth-child(3n+2) {
+            background-color: lightgoldenrodyellow;
+            
+        }
+
+        table.t2 tr:nth-child(3n+1) td:nth-child(3n) {
+            background-color: bisque;
+            border-right: 2px solid red;
+        }
+
+        table.t2 tr:nth-child(3n+2) td:nth-child(3n+1) {
+            background-color: orange;
+        }
+
+        table.t2 tr:nth-child(3n+2) td:nth-child(3n+2) {
+            background-color: cornflowerblue;
+        }
+
+        table.t2 tr:nth-child(3n+2) td:nth-child(3n) {
+            background-color: white;
+            border-right: 2px solid red;
+        }
+
+        table.t2 tr:nth-child(3n) td:nth-child(3n+1) {
+            background-color: gold;
+            border-bottom: 2px solid navy;
+        }
+
+        table.t2 tr:nth-child(3n) td:nth-child(3n+2) {
+            background-color: darkviolet;
+            border-bottom: 2px solid navy;
+        }
+
+        table.t2 tr:nth-child(3n) td:nth-child(3n) {
+            background-color: greenyellow;
+            border-right: 2px solid red;
+            border-bottom: 2px solid navy;
+        }
+    /*
+    .t1 thead th {
+        background: #4f81bd;
+        text-transform: lowercase;
+        text-align: left;
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .t1 tr {
+        border-right: 1px solid #95b3d7;
+        background-color:aquamarine;
+    }
+
+    .t1 tbody tr {
+        border-bottom: 1px solid #95b3d7;
+    }
+*/
+    /*    
+    .t1 tbody tr:nth-child(odd) {
+            background: #dbe5f0;
+        }
+
+        .t1 tbody th, .t1 tbody tr:nth-child(even) td {
+            border-right: 1px solid #95b3d7;
+        }
+        */
+/*
+    .t1 tfoot th {
+        background: #4f81bd;
+        text-align: left;
+        font-weight: normal;
+        font-size: 10px;
+        color: #fff;
+    }
+*/
+    /*
+    .t1 tbody tr:nth-child(3n+1) {
+        background-color: antiquewhite;
+    }
+        */
+    /*  .t1 tr *:nth-child(3), .t1 tr *:nth-child(4) {
+        text-align: right;
+        background-color:chartreuse
+    }
+          */
+    
+ 
