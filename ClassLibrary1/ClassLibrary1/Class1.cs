@@ -8,5 +8,10 @@ namespace ClassLibrary1
 {
     public class Class1
     {
+
+        public int Return10()
+        {
+            return 10;
+        }
     }
 }
