@@ -19,5 +19,18 @@ namespace UnitTestProject1
             //Assert
             Assert.AreEqual(expected_res, actual_res);
         }
+        [TestMethod]
+        public void TestReturn5()
+        {
+            //Arrange
+            int expected_res = 5;
+            Class1 class1 = new Class1();
+
+            //Act
+            int actual_res = class1.Return5();
+
+            //Assert
+            Assert.AreEqual(expected_res, actual_res);
+        }
     }
 }

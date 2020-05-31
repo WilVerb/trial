@@ -13,5 +13,9 @@ namespace ClassLibrary1
         {
             return 10;
         }
+        public int Return5()
+        {
+            return 5;
+        }
     }
 }
