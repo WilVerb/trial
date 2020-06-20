@@ -1,0 +1,9 @@
+C:\Users\Envy\source\repos\ClassLibCore\ClassLibCore\obj\Debug\netcoreapp2.1\ClassLibCore.csprojAssemblyReference.cache
+C:\Users\Envy\source\repos\ClassLibCore\ClassLibCore\obj\Debug\netcoreapp2.1\ClassLibCore.csproj.CoreCompileInputs.cache
+C:\Users\Envy\source\repos\ClassLibCore\ClassLibCore\obj\Debug\netcoreapp2.1\ClassLibCore.AssemblyInfoInputs.cache
+C:\Users\Envy\source\repos\ClassLibCore\ClassLibCore\obj\Debug\netcoreapp2.1\ClassLibCore.AssemblyInfo.cs
+C:\Users\Envy\source\repos\ClassLibCore\ClassLibCore\bin\Debug\netcoreapp2.1\ClassLibCore.deps.json
+C:\Users\Envy\source\repos\ClassLibCore\ClassLibCore\bin\Debug\netcoreapp2.1\ClassLibCore.dll
+C:\Users\Envy\source\repos\ClassLibCore\ClassLibCore\bin\Debug\netcoreapp2.1\ClassLibCore.pdb
+C:\Users\Envy\source\repos\ClassLibCore\ClassLibCore\obj\Debug\netcoreapp2.1\ClassLibCore.dll
+C:\Users\Envy\source\repos\ClassLibCore\ClassLibCore\obj\Debug\netcoreapp2.1\ClassLibCore.pdb
